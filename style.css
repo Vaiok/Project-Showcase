@@ -1,0 +1,12 @@
+* {margin: 0;}
+body {
+  overflow: hidden;
+  display: block;
+  background-color: blue;
+  perspective: 1500px;
+  perspective-origin: center 50vh;
+}
+.block {
+  transform-style: preserve-3d;
+  transition: transform 2s;
+}
